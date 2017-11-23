@@ -1,95 +1,102 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-  <meta charset="utf-8">
-  <title>IFE JavaScript Task 04</title>
-  <!-- <script src="js/task04.js"></script> -->
-  <style>
-    button {
-      background-color: #fff;
-      border-radius: 5px;
-    }
+	<head>
+		<meta charset="utf-8">
+		<title>IFE JavaScript Task 04</title>
+		<!-- <script src="js/task04.js"></script> -->
+		<style>
+			button {
+				background-color: #fff;
+				border-radius: 5px;
+			}
+			
+			button:nth-child(3) {
+				margin-right: 20px;
+			}
+			
+			li {
+				display: inline-block;
+				list-style: none;
+				background-color: red;
+				width: 40px;
+				height: 40px;
+				color: #fff;
+				text-align: center;
+				line-height: 40px;
+				margin-right: 10px;
+				cursor: pointer;
+			}
+		</style>
+	</head>
 
-    button:nth-child(3) {
-      margin-right: 20px;
-    }
+	<body>
+		<input type="text" id="num_input">
+		<button>左侧入</button>
+		<button>右侧入</button>
+		<button>左侧出</button>
+		<button>右侧出</button>
+		<ul id="myul">
+		</ul>
 
-    li {
-      display: inline-block;
-      list-style: none;
-      background-color: red;
-      width: 40px;
-      height: 40px;
-      color: #fff;
-      text-align: center;
-      line-height: 40px;
-      margin-right: 10px;
-      cursor: pointer;
-    }
-  </style>
-</head>
+		<script type="text/javascript">
+			var num_input = document.getElementById("num_input");
+			var ul = document.getElementById("myul");
+			var btn = document.getElementsByTagName("button");
 
-<body>
-  <input type="text" id="num_input">
-  <button>左侧入</button>
-  <button>右侧入</button>
-  <button>左侧出</button>
-  <button>右侧出</button>
-  <ul id="myul">
-  </ul>
+			function addli(type) {
+				var t = document.createTextNode(num_input.value);
+				//是数字再创建li，效率高
+				if(!isNaN(num_input.value)) {
+					var li = document.createElement("li");
+					li.appendChild(t);
+					li.onclick = function() {
+						ul.removeChild(li);
+					}
+					
+					//根据type判断左添加还是右添加，type=0 就是false
+					if(type) {
+						ul.insertBefore(li, ul.childNodes[0]);
+					} else {
+						ul.appendChild(li);
+					}
+					
+				} else {
+					alert("请输入一个数字!");
+				}
+			}
 
-  <script type="text/javascript">
-    var num_input = document.getElementById("num_input");
-    var ul = document.getElementById("myul");
-    // var queue = new Array();
-    var btn = document.getElementsByTagName("button");
+			function rightadd() {
+				addli(0);
+			}
 
-    function addli() {
-      var li = document.createElement("li");
-      var t = document.createTextNode(num_input.value);
-      if (!isNaN(t)) {
-        li.appendChild(t);
-        li.onclick = function () {
-          ul.removeChild(li);
-        }
-        return li;
-      }else{
-        alert("请输入一个数字!");
-        return -1;
-      }
-    }
+			function leftadd() {
+				addli(1);
+			}
 
-    function rightadd() {
-      if(addli() != -1){
-        var newli = addli();
-        ul.appendChild(newli);
-      }
-    }
-    function leftadd() {
-      var newli = addli();
-      ul.insertBefore(newli, ul.childNodes[0]);
-    }
-    function leftmove() {
-      // ul.firstChild.remove();
-      ul.removeChild(ul.firstChild);
-    }
+			function leftmove() {
+				//ul为空时不可移除
+				if(ul.hasChildNodes()) {
+					ul.removeChild(ul.firstChild);
+				}
+			}
 
-    function rightmove() {
-      // ul.lastChild.remove();
-      ul.removeChild(ul.lastChild);
-    }
+			function rightmove() {
+				//ul为空时不可移除
+				if(ul.hasChildNodes()) {
+					ul.removeChild(ul.lastChild);
+				}
+			}
 
-    function init() {
-      btn[0].onclick = leftadd;
-      btn[1].onclick = rightadd;
-      btn[2].onclick = leftmove;
-      btn[3].onclick = rightmove;
-    }
+			function init() {
+				btn[0].onclick = leftadd;
+				btn[1].onclick = rightadd;
+				btn[2].onclick = leftmove;
+				btn[3].onclick = rightmove;
+			}
 
-    init();
-
-  </script>
-</body>
+			init();
+		</script>
+	</body>
 
 </html>

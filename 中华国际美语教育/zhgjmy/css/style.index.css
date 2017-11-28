@@ -1,156 +1,155 @@
-.wraper{
-  margin-left: -15px;
-  margin-right: -15px;
+.wraper {
+	margin-left: -15px;
+	margin-right: -15px;
 }
 
-.navbar-default{
-  background-color: #fff;
-  border-color: #fff;
+.navbar-default {
+	background-color: #fff;
+	border-color: #fff;
 }
 
-.navbar{
-  margin-bottom: 0;
+.navbar {
+	margin-bottom: 0;
 }
 
-.navbar-brand{
-  width: 56%;
-  display: block;
-  margin-left: 15%;
+.navbar-brand {
+	width: 56%;
+	display: block;
+	margin-left: 15%;
 }
 
-.navbar-default .navbar-brand img{
-  width: 100%;
+.navbar-default .navbar-brand img {
+	width: 100%;
 }
 
-
-.banner_swi .swiper-slide{
-  width: 100%;
-  height: 100%;
-  min-height: 197px;
+.banner_swi .swiper-slide {
+	width: 100%;
+	height: 100%;
+	min-height: 197px;
 }
 
-.banner_swi .swiper-slide img{
-  width: 100%;
+.banner_swi .swiper-slide img {
+	width: 100%;
 }
 
-.purpose{
-  background-color: #fff;
-  padding: 3% 0 3%;
+.purpose {
+	background-color: #fff;
+	padding: 3% 0 3%;
 }
 
-.purpose .theme{
-  font-weight: 300;
+.purpose .theme {
+	font-weight: 300;
 }
 
-.purpose .theme h2{
-  font-size: 27px;
-  color: #222;
-  letter-spacing: 4px;
+.purpose .theme h2 {
+	font-size: 27px;
+	color: #222;
+	letter-spacing: 4px;
 }
 
-.purpose .theme h3{
-  font-size: 27px;
-  color: #e53f51;
-  letter-spacing: 3px;
+.purpose .theme h3 {
+	font-size: 27px;
+	color: #e53f51;
+	letter-spacing: 3px;
 }
 
-.title{
-  position: relative;
-  padding-top: 30px;;
-  margin-bottom: 30px;
+.title {
+	position: relative;
+	padding-top: 30px;
+	;
+	margin-bottom: 30px;
 }
 
-.title:before{
-  content: "";
-  border-bottom: 1px solid #ebebeb;
-  width: 450px;
-  position: absolute;
-  left: 50%;
-  margin-left: -225px;
-  margin-top: 77px;
+.title:before {
+	content: "";
+	border-bottom: 1px solid #ebebeb;
+	width: 450px;
+	position: absolute;
+	left: 50%;
+	bottom: 12px;
+	margin-left: -225px;
 }
 
-.title h2{
-  font-size: 22px;
-  font-weight: bold;
-  background-color: #fff;
-  padding-top: 20px;
+.title h2 {
+	position: relative;
+	max-width: 140px;
+	margin: 20px auto 10px;
+	font-size: 22px;
+	font-weight: bold;
+	background-color: #fff;
+	padding-top: 20px;
+	z-index: 2;
 }
 
-.purpose .pur_content{
-  width: 67%;
-  margin: auto;
+.purpose .pur_content {
+	width: 67%;
+	margin: auto;
 }
 
-.purpose .pur_content .content_row p{
-  font-size: 19px;
-  font-weight: 300;
-  text-align: center;
-  color: #777;
+.purpose .pur_content .content_row p {
+	font-size: 19px;
+	font-weight: 300;
+	text-align: center;
+	color: #777;
 }
 
-.story{
-  background-color: #f4f4f4;
+.story {
+	background-color: #f4f4f4;
 }
 
-.story h2{
-  font-size: 20px;
-  line-height: 29px;
-  text-align: center;
-  color: #000;
-  margin-top: 19%;
-  margin-bottom: 17%;
+.story h2 {
+	font-size: 20px;
+	line-height: 29px;
+	text-align: center;
+	color: #000;
+	margin-top: 19%;
+	margin-bottom: 17%;
 }
 
-.story p{
-  width: 87%;
-  font-size: 18px;
-  text-align: left;
-  text-indent: 2em;
-  line-height: 27px;
-  letter-spacing: 0.55px;
-  margin: auto;
-  margin-bottom: 30%;
+.story p {
+	width: 87%;
+	font-size: 18px;
+	text-align: left;
+	text-indent: 2em;
+	line-height: 27px;
+	letter-spacing: 0.55px;
+	margin: auto;
+	margin-bottom: 30%;
 }
 
-.story .story-right{
-  display: block;
-  margin: 25% auto 15%;
+.story .story-right {
+	display: block;
+	margin: 25% auto 15%;
 }
 
-.contact .content_left{
-  width: 66px;
-  height: 66px;
-  background-color: red;
+.contact .content_left {
+	width: 66px;
+	height: 66px;
+	background-color: red;
 }
 
-.contact .content_right h3{
-  font-weight: 600;
-  font-size: 21px;
-  text-align: left;
-  color: #e53f51;
-  margin-bottom: 4px;
-  letter-spacing: 0.5px;
+.contact .content_right h3 {
+	font-weight: 600;
+	font-size: 21px;
+	text-align: left;
+	color: #e53f51;
+	margin-bottom: 4px;
+	letter-spacing: 0.5px;
 }
 
-.contact .content_right p
-{
-  font-weight: 400;
-  font-size: 16px;
-  color: #747474;
-  line-height: 1.5;
-  margin-bottom: 10px;
+.contact .content_right p {
+	font-weight: 400;
+	font-size: 16px;
+	color: #747474;
+	line-height: 1.5;
+	margin-bottom: 10px;
 }
 
-.contact .address-img{
-  margin-top: 1%;
-  margin-bottom: 2%;
+.contact .address-img {
+	margin-top: 1%;
+	margin-bottom: 2%;
 }
 
-.contact .address-img img{
-  width: 90%;
+.contact .address-img img {
+	width: 90%;
 }
-
-
-
-

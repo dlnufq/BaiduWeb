@@ -1,6 +1,16 @@
 
-.taocang {
-	
+.title {
+	font-size: 26px;
+	font-weight: bolder;
+	text-align: center;
+}
+
+.title hr {
+	width: 1em;
+	height: 2px;
+	margin: 10px auto;
+	border: 0;
+	background: #f6ab00;
 }
 
 .taocang li {

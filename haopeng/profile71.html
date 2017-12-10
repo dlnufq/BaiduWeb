@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>企业概况 子公司简介</title>
+		<link rel="stylesheet" href="css/style.reset.css">
+		<link rel="stylesheet" href="css/swiper.min.css">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/style.index.css" />
+
+		<style>
+			.swiper-container {
+				width: 100%;
+				height: 300px;
+				margin-left: auto;
+				margin-right: auto;
+			}
+			
+			.swiper-slide {
+				background-size: cover;
+				background-position: center;
+			}
+			
+			.gallery-top {
+				height: 80%;
+				width: 100%;
+			}
+			
+			.gallery-thumbs {
+				height: 20%;
+				box-sizing: border-box;
+				padding: 10px 0;
+			}
+			
+			.gallery-thumbs .swiper-slide {
+				height: 100%;
+				opacity: 0.4;
+			}
+			
+			.gallery-thumbs .swiper-slide-active {
+				opacity: 1;
+			}
+		</style>
+
+	</head>
+
+	<body>
+		<header></header>
+		<!--  企业概况 子公司简介开始-->
+		<div class="profile6 profile72">
+			<div class="top-show">
+				<h2>子公司简介</h2>
+				<h4>Introduction of subsidiary</h4>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-6 lunbo">
+						<!-- Swiper -->
+						<div class="swiper-container gallery-top">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide" style="background-image:url(images/p2/profile7_2_img1.jpg)"></div>
+								<div class="swiper-slide" style="background-image:url(images/p2/profile7_2_img2.png)"></div>
+								<div class="swiper-slide" style="background-image:url(images/p2/profile7_2_img3.png)"></div>
+							</div>
+						</div>
+						<div class="swiper-container gallery-thumbs">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide" style="background-image:url(images/p2/profile7_2_img1.jpg)"></div>
+								<div class="swiper-slide" style="background-image:url(images/p2/profile7_2_img2.png)"></div>
+								<div class="swiper-slide" style="background-image:url(images/p2/profile7_2_img3.png)"></div>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 detail">
+						<p>凡益之道，与时偕行。皓澎医药集团根植于上海这片金融的沃土，从诞生之日起，她就紧紧与中国医药业的发展相伴随行，肩负着金融服务创新的使命。</p>
+						<p>回首皓澎医药集团十八年来的发展历程，每一位财安人都以“筚路蓝缕，以启山林”之志艰苦奋斗谋事创业。皓澎医药集团不仅成为了无数梦想汇聚的地方，更成为展现人生精彩的最佳舞台。</p>
+						<p>思深方益远，谋定而后动。随着我国服务行业的不断向前发展，皓澎医药面对未来也显得更加从容且自信。我们的目标十分清晰，就是要始终走在医药服务行业的前列，打造综合化的医药服务企业。</p>
+						<p>只有高瞻远瞩，审时度势，方能独立潮头；只有与时俱进、开拓创新，方能永远领先。今天的财安金融，正处在走向转型发展的关键节点。未来的发展航标已经划定，“皓澎医药集团”巨轮正正驶入全新的水域。</p>
+						<p>目前公司在全国15个省份设立了四十多家分子公司，员工多达五千余人，锤炼出几百人的专业管理人才队伍，聚集了一大批服务领域的行业精英。他们是开拓者，在行业内一路披荆斩棘；他们是创新者，为金融服务外包领域发展献计助力；他们是筑梦者，成就了自己和公司的共同梦想。</p>
+						<p>思深方益远，谋定而后动。随着我国服务行业的不断向前发展，皓澎医药面对未来也显得更加从容且自信。我们的目标十分清晰，就是要始终走在医药服务行业的前列，打造综合化的医药服务企业。</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--  企业概况 子公司简介结束-->
+		<footer></footer>
+
+		<script src="js/jquery.min.js"></script>
+		<script src="js/swiper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script>
+			var galleryTop = new Swiper('.gallery-top', {
+				spaceBetween: 10,
+				loop: true,
+				loopedSlides: 3, //looped slides should be the same
+			});
+			var galleryThumbs = new Swiper('.gallery-thumbs', {
+				spaceBetween: 10,
+				slidesPerView: 4,
+				touchRatio: 0.2,
+				loop: true,
+				loopedSlides: 3, //looped slides should be the same
+				slideToClickedSlide: true,
+			});
+			galleryTop.controller.control = galleryThumbs;
+			galleryThumbs.controller.control = galleryTop;
+		</script>
+	</body>
+
+</html>

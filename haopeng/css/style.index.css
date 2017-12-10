@@ -1,0 +1,645 @@
+.h1,
+.h2,
+.h3,
+h1,
+h2,
+h3 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+a:focus,
+a:hover {
+	text-decoration: none;
+}
+
+.wraper {
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+.wraper img {
+	width: 100%;
+}
+
+.profile {
+	width: 100%;
+}
+
+.top-show {
+	width: 100%;
+	height: 300px;
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-image: url(../images/profile_bg1.jpg);
+}
+
+.top-show h2 {
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+	padding-top: 120px;
+}
+
+.top-show h4 {
+	font-size: 12px;
+	color: #cccccc;
+	text-align: center;
+	margin-top: 15px;
+}
+
+
+/* 企业概况首页 */
+
+.profile .content {
+	padding-top: 4%;
+}
+
+.profile .content .top_fl img {
+	width: 100%;
+}
+
+.profile .content .top-rt {
+	padding-right: 35px;
+	padding-left: 35px;
+}
+
+.profile .content .top-rt .sec-title {
+	text-align: left;
+}
+
+.profile .content .top-rt .sec-title hr {
+	width: 70px;
+	margin-left: 0;
+}
+
+.profile .content .top-rt p {
+	margin-top: 7%;
+	font-size: 12px;
+	font-weight: 500;
+	color: #777777;
+	letter-spacing: 0.65px;
+	line-height: 45px;
+}
+
+.profile .content .look-more {
+	display: block;
+	width: 100px;
+	height: 30px;
+	color: #fff;
+	font-size: 12px;
+	line-height: 30px;
+	text-align: center;
+	margin-top: 9%;
+	background-color: #f6ab00;
+}
+
+.profile .content .under_fl {
+	margin-bottom: 4%;
+}
+
+.profile .content .under_fl em {
+	display: block;
+	float: left;
+	width: 50%;
+	;
+	height: 185px;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.profile .content .under_fl:first-child em {
+	background-image: url(../images/p2/profile_icon1.png);
+	background-color: #418ad0;
+}
+
+.profile .content .under_fl:nth-child(2) em {
+	background-image: url(../images/p2/profile_icon2.png);
+	background-color: #c5da33;
+}
+
+.profile .content .under_fl:nth-child(3) em {
+	background-image: url(../images/p2/profile_icon3.png);
+	background-color: #ee6a65;
+}
+
+.profile .content .under_fl a {
+	display: block;
+	width: 50%;
+	font-size: 20px;
+	float: left;
+	height: 185px;
+	text-align: center;
+	line-height: 185px;
+}
+
+.profile .content .under_fl:first-child a {
+	background-color: #edfaff;
+}
+
+.profile .content .under_fl:nth-child(2) a {
+	color: #c5da33;
+	background-color: #f4f9d1;
+}
+
+.profile .content .under_fl:nth-child(3) a {
+	color: #ee6a65;
+	background-color: #fde9e8;
+}
+
+
+/* 企业概况 关于我们 */
+
+.profile1 .top-show {
+	height: 590px;
+	background-image: url(../images/p2/profile1_bg1.jpg);
+}
+
+.profile1 .top-show h2 {
+	padding-top: 40px;
+}
+
+.profile1 .top-show h4 {
+	margin-bottom: 30px;
+}
+
+.profile1 .swiper-container {
+	width: 60%;
+}
+
+.swiper-container .swiper-slide img {
+	width: 100%;
+}
+
+.profile1 .swiper-slide p {
+	padding: 15px;
+	font-size: 12px;
+	color: #999999;
+	line-height: 22px;
+	background-color: #f8f8f8;
+}
+
+.profile1 .sec-title {
+	margin-top: 4%;
+	margin-bottom: 4%;
+}
+
+.profile1 .content {
+	margin-bottom: 8%;
+}
+
+.profile1 .content .middle_fl {
+	position: relative;
+}
+
+.profile1 .content img {
+	width: 100%;
+}
+
+.profile1 .content span {
+	position: absolute;
+	width: calc(100% - 30px);
+	color: #fff;
+	bottom: 0;
+	text-align: center;
+	line-height: 37px;
+	font-size: 16px;
+	background-color: rgba(56, 54, 58, 0.5);
+}
+
+.profile1 .content .middle_fl em {
+	position: absolute;
+	width: calc(100% - 30px);
+	height: 100%;
+	top: 0;
+}
+
+.profile1 .content .middle_fl em:hover {
+	/*background-color: rgba(56,54,58,0.5);*/
+	background: rgba(56, 54, 58, 0.5) url(../images/p2/profile1_icon1.png) center center no-repeat;
+}
+
+.profile1 .vision {
+	padding-bottom: 5%;
+	background-color: #f5f5f5;
+}
+
+.profile1 .vision .row li p {
+	font-size: 14px;
+	color: #555;
+	text-align: left;
+	padding: 45px 30px 0;
+}
+
+.profile1 .vision .col-xs-12,
+.profile1 .vision .col-sm-3 {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.profile1 .vision img {
+	width: 100%;
+}
+
+
+/*企业概况 发展历程*/
+
+.profile2 .sec-title {
+	margin: 4% auto;
+}
+
+.profile2 ul li {
+	width: 100%;
+	height: 200px;
+}
+
+.profile2 .left {
+	float: left;
+	width: 47%;
+	height: 100%;
+	text-align: right;
+	box-sizing: border-box;
+}
+
+.profile2 .middle {
+	float: left;
+	width: 6%;
+	height: 100%;
+	box-sizing: border-box;
+	background: url(../images/p2/profile2_img2.png) no-repeat top center;
+}
+
+.profile2 .right {
+	float: left;
+	width: 47%;
+	height: 100%;
+	text-align: left;
+	box-sizing: border-box;
+}
+
+.profile2 li h3 {
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 65px;
+}
+
+.profile2 li p {
+	color: #555;
+	font-size: 14px;
+	margin: 15px 0;
+}
+
+.profile2 .triangle-down {
+	width: 40px;
+	height: 40px;
+	background: url(../images/p2/profile2_img1.png);
+	margin: 0px auto 90px;
+}
+
+
+/*企业概况 集团荣誉*/
+
+.profile3 .content:first-child {
+	padding-top: 50px;
+	margin-bottom: 10px;
+}
+
+.profile3 .content:last-child {
+	margin-bottom: 40px;
+}
+
+.profile3 .content .img {
+	height: 170px;
+	padding-top: 16px;
+	border: 1px solid #fff;
+}
+
+.profile3 .content .img img {
+	display: block;
+	margin: auto;
+	/*width:100%;*/
+}
+
+.profile3 .content .infor {
+	padding: 12px 10px 0;
+	background-color: #e5f1fc;
+}
+
+.profile3 .content .infor h4 {
+	font-size: 18px;
+	color: #555;
+	font-weight: bold;
+}
+
+.profile3 .infor p {
+	font-size: 14px;
+	color: #999;
+	padding-bottom: 10px;
+}
+
+.profile3 .infor .gold {
+	padding-bottom: 52px;
+}
+
+.profile3 .content li:hover .img {
+	border: 1px solid #f6ab00;
+}
+
+.profile3 .content li:hover .infor {
+	background-color: #f6ab00;
+}
+
+
+/*企业概况 企业文化*/
+
+.profile4 .service {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background: url(../images/p2/profile4_bg1.jpg) top center no-repeat;
+}
+
+.profile4 .service .bg {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	background: url(../images/p2/profile4_bg2.jpg) top center no-repeat;
+}
+
+.profile4 .service .bg h4 {
+	font-size: 16px;
+	color: #ff9700;
+	margin-top: 31px;
+	margin-left: 22px;
+}
+
+.profile4 .service .bg p {
+	font-size: 14px;
+	color: #fff;
+	line-height: 24px;
+	padding-left: 38px;
+	padding-right: 30px;
+	margin-top: 35px;
+	margin-bottom: 23px;
+}
+
+.profile4 .idea {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.profile4 .idea .infor {
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.profile4 .idea .infor h4 {
+	font-size: 22px;
+	color: #222;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.profile4 .idea .infor p {
+	font-size: 14px;
+	color: #999;
+	line-height: 24px;
+}
+
+.profile4 .idea img {
+	width: 100%;
+}
+
+
+/*企业概况 社会责任*/
+
+.profile5 .res-title {
+	position: relative;
+	height: 59px;
+	margin-top: 30px;
+	background-color: #f6ab00;
+}
+
+.profile5 .res-title h3 {
+	display: inline-block;
+	font-size: 18px;
+	color: #fff;
+	line-height: 55px;
+	margin-left: 80px;
+	margin-right: 20px;
+}
+
+.profile5 .res-title i {
+	position: absolute;
+	width: 49px;
+	height: 49px;
+	top: 4px;
+	left: 20px;
+	border-radius: 50%;
+	background: #fff url(../images/p2/profile5_icon1.png) center center no-repeat;
+}
+
+.profile5 .res-title span {
+	font-size: 12px;
+	color: #fff;
+}
+
+.profile5 .respon {
+	margin-top: 30px;
+}
+
+.profile5 .respon .respon_rt {
+	padding-left: 22px;
+}
+
+.profile5 .respon .respon_rt h4 {
+	font-size: 16px;
+	color: #222;
+	margin-bottom: 22px;
+}
+
+.profile5 .respon .respon_rt p {
+	font-size: 14px;
+	color: #999;
+	padding-bottom: 27px;
+	border-bottom: 1px dotted #cccccc;
+}
+
+.profile5 .respon .respon_rt h4:hover {
+	color: #f6ab00;
+}
+
+.profile5 .respon .respon_rt span {
+	font-size: 14px;
+	color: #bbb;
+}
+
+.profile5 .respon .respon_rt .time {
+	position: relative;
+	padding-left: 20px;
+	margin-right: 65px;
+}
+
+.profile5 .respon .respon_rt .time i {
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	top: 2px;
+	left: 0;
+	background: url(../images/p2/profile5_icon2.png) top center no-repeat;
+}
+
+
+/*企业概况 社会责任详情*/
+
+.profile51 h2 {
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	margin: 45px 0 30px;
+}
+
+.profile51 .author-wrapper {
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.profile51 .author {
+	display: inline;
+	color: #a4a4a4;
+}
+
+.profile51 .author li {
+	display: inline-block;
+	line-height: 24px;
+	font-size: 14px;
+	text-align: center;
+	margin-left: 5px;
+	margin-right: 10px;
+}
+
+.profile51 p {
+	font-size: 14px;
+	line-height: 30px;
+	color: #777777;
+	margin-bottom: 0;
+}
+
+.profile51 h3 {
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 30px;
+	color: #000;
+}
+
+.profile51 img {
+	width: 100%;
+	margin-top: 40px;
+	margin-bottom: 50px;
+}
+
+
+/*企业概况 董事长致辞开始*/
+
+.profile6 .container {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.profile6 .detail p {
+	font-size: 14px;
+	color: #777;
+	line-height: 24px;
+	text-indent: 2em;
+}
+
+
+/*连锁加盟开始*/
+
+.join1 .troudu-lf {
+	position: relative;
+	padding: 15px;
+}
+
+.join1 .troudu-lf i {
+	position: absolute;
+	width: 70px;
+	height: 70px;
+	margin-left: 15px;
+	top: 20px;
+	border-radius: 50%;
+	background: #fff url(../images/p3/join_icon1.png) center center no-repeat;
+}
+
+.join1 .troudu-lf h4 {
+	display: block;
+	width: 3em;
+	font-size: 16px;
+	color: #fff;
+	margin-top: 100px;
+	margin-left: 25px;
+	text-align: center;
+}
+
+.join1 .troudu-lf a {
+	display: block;
+	width: 7em;
+	margin: 0 auto;
+	text-align: center;
+	color: #f6ab00;
+	background-color: #fff;
+	padding: 5px 0;
+}
+
+.join1 .troudu-rt {
+	padding: 15px 15px 15px 40px;
+	color: white;
+	box-sizing: border-box;
+}
+
+.join1 .troudu-rt span {
+	position: absolute;
+	top: 25px;
+	right: 30px;
+}
+
+.join1 .troudu-rt p {
+	font-size: 14px;
+	line-height: 24px;
+}
+
+.join1 .troudu-rt p:first-of-type {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+}
+
+.join1 .troudu-rt p:last-of-type {
+	display: none;
+}
+
+@media only screen and (min-width: 100px) and (max-width: 768px) {
+	.profile2 .left {
+		width: 42%;
+	}
+	.profile2 .left p {
+		text-align: left;
+	}
+	.profile2 .middle {
+		width: 16%;
+	}
+	.profile2 .right {
+		width: 42%;
+	}
+	.join1 .troudu-lf i {
+		left: 50%;
+		margin-left: -35px;
+	}
+	.join1 .troudu-lf h4 {
+		width: 100%;
+		text-align: center;
+		margin-left: 0;
+	}
+	.join1 .troudu-rt {
+		padding: 15px;
+	}
+}
